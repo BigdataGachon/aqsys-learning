@@ -1,0 +1,34 @@
+{
+  "input_size": 16,
+  "hidden_size": 128,
+  "num_layers": 2,
+  "dropout": 0.2,
+  "seq_len": 24,
+  "features": [
+    "hour",
+    "month",
+    "day_of_week",
+    "season",
+    "temperature",
+    "humidity",
+    "dew_point",
+    "wind_speed",
+    "wind_direction",
+    "pressure",
+    "no2",
+    "so2",
+    "co",
+    "o3",
+    "pm10",
+    "pm25"
+  ],
+  "targets": [
+    "pm10",
+    "pm25"
+  ],
+  "best_epoch": 26,
+  "test_mae_pm10": 5.1344895362854,
+  "test_mae_pm25": 3.5204970836639404,
+  "test_rmse_pm10": 6.488157272338867,
+  "test_rmse_pm25": 4.4340972900390625
+}
